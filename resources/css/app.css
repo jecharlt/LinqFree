@@ -1,0 +1,294 @@
+.background {
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-color: #d2d8d6;
+    background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.outside-container {
+    padding: 64px 16px 32px;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.container {
+    max-width: 680px;
+}
+
+.profile-picture {
+    background-color: rgb(96, 105, 108);
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 96px;
+    width: 96px;
+    margin-bottom: 16px;
+}
+
+.initials {
+    font-weight: 600;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+}
+
+.profile-name {
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.profile-name-container {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.links {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.link-object {
+    position: relative;
+    width: 100%;
+    transition: transform ease-in-out .15s;
+}
+
+.link-object:hover {
+    transform: scale(1.05);
+}
+
+.link-container {
+    z-index: 0;
+    overflow: hidden;
+    margin-bottom: 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    border-radius: 4px;
+}
+
+.link {
+    hyphens: auto;
+    white-space: normal;
+    background: none;
+    color: inherit;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    padding-left: 44px;
+    padding-right: 44px;
+    margin: 0px;
+    border: none;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    padding: 16px 20px;
+    width: 100%;
+    appearance: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.link-description {
+    margin-bottom: 0;
+}
+
+.link-share-button {
+    outline: none;
+    border: none;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    right: 0;
+    margin-right: 6px;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    transition: background-color .15s;
+}
+
+.link-share-button:hover {
+    background-color: rgb(217, 217, 217);
+}
+
+.top-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    max-width: 680px;
+}
+
+.top-bar-link-share-button {
+    outline: none;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(226, 226, 226);
+    transition: background-color .15s;
+}
+
+.top-bar-link-share-button:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.sharebar {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 11, 13, 0.6);
+    text-align: center;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.sharebar-content {
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px 8px;
+    max-width: 520px;
+    position: relative;
+}
+
+.sharebar-content-mobile {
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 24px 8px;
+    max-width: 520px;
+    position: relative;
+}
+
+.close-sharebar {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    padding: 8px;
+    transition: background-color .15s;
+    position: absolute;
+    right: 12px;
+}
+
+.close-sharebar:hover {
+    background: rgb(243, 242, 243);
+}
+
+.sharebar-link-outer-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.sharebar-link-outer-container:hover {
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+
+.sharebar-copy-link-outer-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    width: 92%;
+    border: 1px solid rgb(230, 230, 230);
+    text-decoration: none;
+    color: black;
+}
+
+.sharebar-copy-link-outer-container:hover {
+    cursor: pointer;
+    background-color: rgb(244, 244, 244);
+}
+
+.sharebar-link-inner-container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.small-svg {
+    width: 24px;
+    height: 24px;
+}
+
+.sharebar-link-text {
+    padding: 0px;
+    margin-left: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.sharebar-copy-link-text {
+    padding: 0px;
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.sharebar-link-caret {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    transition: background-color .15s;
+    position: absolute;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+}
+
+.sharebar-link-copy {
+    position: absolute;
+    right: 8px;
+}
+
+[x-cloak] {
+    display: none;
+}
