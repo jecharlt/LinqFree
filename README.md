@@ -22,6 +22,12 @@ Configure .env:
 
 Rename `.env.example` to `.env` and configure the `.env` file as necessary
 
+Generate Laravel Application Key:
+
+```bash
+php artisan key:generate
+````
+
 Serve the application:
 
 ```bash
