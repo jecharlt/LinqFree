@@ -2,7 +2,7 @@
      viewBox="5.99 5.99 36.02 36.02"
      width="48px"
      height="48px"
-     class="link-svg">
+     class="{{ $class }}">
     <radialGradient id="yOrnnhliCrdS2gy~4tD8ma"
                     cx="19.38"
                     cy="42.035"
