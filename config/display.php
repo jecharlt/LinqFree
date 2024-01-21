@@ -1,4 +1,5 @@
 <?php
+
 $page_title = "Page Title";
 $custom_url_identifier = '';
 $linqtree_custom_url = env("APP_URL") . "/{$custom_url_identifier}";
