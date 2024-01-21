@@ -2,11 +2,7 @@
 
 ### Installation
 
-Clone the repository to your local machine:
-
-```bash
-git@github.com:jecharlt/LinqFree.git
-```
+Download Latest Release `.zip` file to your local machine
 
 Install dependencies: 
 
