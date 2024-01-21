@@ -125,6 +125,10 @@ return [
 ];
 ```
 
+- To use an svg not already defined for either a link or sharebar-link, place your svg in a `{$name}_svg.blade.php` 
+  file in the `resources\views\svg` folder and use as `"svg.{$name}_svg"` as value to your `"component-svg"` key
+
+
 - You can change other, non-predefined style elements in `resources/css/app.css`
 
 ## Security Vulnerabilities
