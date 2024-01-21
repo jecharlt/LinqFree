@@ -40,7 +40,7 @@ npm run dev
 - To customize the profile name, links, and custom url identifier, visit `config\display.php` to change any of the 
   predefined variables
 
-```
+```injectablephp
 <?php
 
 $page_title = "Page Title";
