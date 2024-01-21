@@ -1,9 +1,15 @@
+:root {
+    --background: white;
+    --profile_picture: gray;
+    --link_background: rgba(255, 255, 255, 0.8);
+}
+
+
 .background {
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
-    background-color: #d2d8d6;
-    background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+    background: var(--background);
     height: 100vh;
     width: 100vw;
 }
@@ -26,7 +32,10 @@
 }
 
 .profile-picture {
-    background-color: rgb(96, 105, 108);
+    background: var(--profile_picture);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     color: rgb(255, 255, 255);
     border-radius: 100%;
     display: flex;
@@ -82,10 +91,11 @@
     overflow: hidden;
     margin-bottom: 16px;
     border: none;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--link_background);
     color: rgb(0, 0, 0);
     box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
     border-radius: 4px;
+    position: relative;
 }
 
 .link {
@@ -256,6 +266,13 @@
     height: 24px;
 }
 
+.link-svg {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 1rem;
+}
+
 .sharebar-link-text {
     padding: 0px;
     margin-left: 16px;
@@ -291,4 +308,16 @@
 
 [x-cloak] {
     display: none;
+}
+
+.three-dots {
+    text-decoration: none;
+    text-underline: none;
+    color: black;
+    width: 18px;
+    height: 18px;
+}
+
+.paragraph-text {
+    margin: 0;
 }

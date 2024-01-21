@@ -6,29 +6,32 @@ use Livewire\Component;
 
 class Landing extends Component
 {
-    public $display_data;
     public $profile_name;
     public $initial;
     public $links;
-    public $custom_url;
     public $short_custom_url;
-    public $custom_identifier;
+    public $page_title;
+    public $sharebar_links;
+    public $background;
+    public $profile_picture;
+    public $paragraph_text;
+    public $link_background;
     public function render()
     {
         return view('livewire.landing')
-            ->layout("layouts.app", ['title' => 'NamePlaceholder']);
+            ->layout("layouts.app", ['title' => $this->page_title]);
     }
 
     public function mount() {
-        $this->display_data = config('display.display');
-        $this->profile_name = $this->display_data['profile_name'];
+        $this->profile_name = config('display.display')['profile_name'];
         $this->initial = strtoupper($this->profile_name[0]);
-        $this->links = $this->display_data['links'];
-        $this->custom_identifier = $this->display_data['custom_identifier'];
-        $this->custom_url = url()->to("/{$this->custom_identifier}");
-        $parsedUrl = parse_url($this->custom_url);
-        $host = $parsedUrl['host'];
-        $path = $parsedUrl['path'] ?? '';
-        $this->short_custom_url = $host . $path;
+        $this->links = config('display.display')['links'];
+        $this->page_title = config('display.display')['page_title'];
+        $this->sharebar_links = config('display.display')['sharebar-links'];
+        $this->background = config('display.display')['background'];
+        $this->profile_picture = config('display.display')['profile_picture'];
+        $this->short_custom_url = config('display.display')['short-custom-url'];
+        $this->paragraph_text = config('display.display')['paragraph_text'];
+        $this->link_background = config('display.display')['link_background'];
     }
 }
