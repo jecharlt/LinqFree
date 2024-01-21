@@ -2,7 +2,7 @@
 
 ### Installation
 
-Download Latest Release `.zip` file to your local machine
+Download latest release `.zip` file to your local machine
 
 Install dependencies: 
 
