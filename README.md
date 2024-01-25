@@ -68,6 +68,7 @@ return [
         ],
         'paragraph_text' => '',
         'custom_url_identifier' => "{$custom_url_identifier}",
+        'google_measurement_id' => '',
         'page_title' => "{$page_title}",
         'short-custom-url' => "{$short_linqtree_custom_url}",
         'background' => "",
