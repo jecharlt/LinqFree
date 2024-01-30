@@ -148,6 +148,7 @@
     margin-right: 6px;
     top: 0;
     bottom: 0;
+    padding: 0;
     background-color: transparent;
     transition: background-color .15s;
 }
@@ -174,6 +175,7 @@
     background-color: rgb(240, 240, 240);
     border: 1px solid rgb(226, 226, 226);
     transition: background-color .15s;
+    padding: 0;
 }
 
 .top-bar-link-share-button:hover {
@@ -314,8 +316,8 @@
     text-decoration: none;
     text-underline: none;
     color: black;
-    width: 18px;
-    height: 18px;
+    width: 20px !important;
+    height: 20px !important;
 }
 
 .paragraph-text {

@@ -39,7 +39,7 @@
                             <div class="sharebar-link-inner-container d-flex align-items-center justify-content-start">
                                 @include("svg.link_svg", ['class' => 'small-svg'])
                                 <span class="sharebar-copy-link-text"
-                                      x-ref="clipboardText">{{ $this->short_custom_url }}</span>
+                                      x-ref="clipboardText">{{ $this->short_url }}</span>
                                 <div class="sharebar-link-copy"
                                      x-text="clipboardStatus"
                                      :class="clipboardStatus === 'Copied' && 'text-success'">Copy

@@ -9,7 +9,7 @@ class Landing extends Component
     public $profile_name;
     public $initial;
     public $links;
-    public $short_custom_url;
+    public $short_url;
     public $page_title;
     public $sharebar_links;
     public $background;
@@ -19,7 +19,7 @@ class Landing extends Component
     public function render()
     {
         return view('livewire.landing')
-            ->layout("layouts.app", ['title' => $this->page_title]);
+            ->layout('layouts.app', ['title' => $this->page_title]);
     }
 
     public function mount() {
@@ -30,7 +30,7 @@ class Landing extends Component
         $this->sharebar_links = config('display.display')['sharebar-links'];
         $this->background = config('display.display')['background'];
         $this->profile_picture = config('display.display')['profile_picture'];
-        $this->short_custom_url = config('display.display')['short-custom-url'];
+        $this->short_url = config('display.display')['short_url'];
         $this->paragraph_text = config('display.display')['paragraph_text'];
         $this->link_background = config('display.display')['link_background'];
     }
