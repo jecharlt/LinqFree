@@ -1,17 +1,11 @@
-<h1>
-LinqFree
-</h1>
+# LinqFree
 
-<div>
-Free Full-Stack and Quickly-Deployable Linktree Alternative
-</div>
-
-<hr>
+> Free Full-Stack and Quickly-Deployable Linktree Alternative
 
 <img src="screenshot.jpg" align="center">
 
 ## Features
-<hr>
+
 
 - Unlimited Customization
 - Social Icons
@@ -20,7 +14,7 @@ Free Full-Stack and Quickly-Deployable Linktree Alternative
 - Share Links
 
 ## Installation and Running
-<hr>
+
 
 1. Download latest release `.zip` file to your local machine
 
@@ -52,21 +46,19 @@ npm run dev
 ```
 
 ## Customization
-<hr>
+
 Quickly customize pre-defined variables (profile name, links, background, etc.), by visiting `config\display.php`
 
 ## Security Vulnerabilities
-<hr>
+
 
 If you discover a security vulnerability within LinqFree, please email John Charlton via [53029902b@gmail.com](mailto:53029902b@gmail.com)
 
 ## Credits
-<hr>
 
 - [John Charlton](https://github.com/jecharlt)
 
 ## License
-<hr>
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information. 
 
