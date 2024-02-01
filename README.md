@@ -15,15 +15,13 @@
 
 ## Installation and Running
 
-
 1. Download latest release `.zip` file to your local machine
+
 
 2. Install dependencies:
 ```bash
 composer install
-```
 
-```bash 
 npm install
 ```
 
@@ -35,10 +33,12 @@ npm install
 ```bash
 php artisan key:generate
 ```
+
 5. Serve the application:
 ```bash
 php artisan serve
 ```
+
 
 6. Compile front-end:
 ```bash
@@ -50,8 +50,6 @@ npm run dev
 Quickly customize pre-defined variables (profile name, links, background, etc.), by visiting `config\display.php`
 
 ## Security Vulnerabilities
-
-
 If you discover a security vulnerability within LinqFree, please email John Charlton via [53029902b@gmail.com](mailto:53029902b@gmail.com)
 
 ## Credits
