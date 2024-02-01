@@ -5,8 +5,6 @@
 <img src="screenshot.jpg" align="center">
 
 ## Features
-
-
 - Unlimited Customization
 - Social Icons
 - Custom Data Analytics
@@ -14,7 +12,6 @@
 - Share Links
 
 ## Installation and Running
-
 1. Download latest release `.zip` file to your local machine
 
 
@@ -25,6 +22,7 @@ composer install
 npm install
 ```
 
+
 3. Configure env:
    1. Rename `.env.example` to `.env` and configure the variables as necessary
 
@@ -33,6 +31,7 @@ npm install
 ```bash
 php artisan key:generate
 ```
+
 
 5. Serve the application:
 ```bash
@@ -45,19 +44,17 @@ php artisan serve
 npm run dev
 ```
 
-## Customization
 
+## Customization
 Quickly customize pre-defined variables (profile name, links, background, etc.), by visiting `config\display.php`
 
 ## Security Vulnerabilities
 If you discover a security vulnerability within LinqFree, please email John Charlton via [53029902b@gmail.com](mailto:53029902b@gmail.com)
 
 ## Credits
-
 - [John Charlton](https://github.com/jecharlt)
 
 ## License
-
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information. 
 
 
