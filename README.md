@@ -14,36 +14,29 @@
 ## Installation and Running
 1. Download latest release `.zip` file to your local machine
 
-
 2. Install dependencies:
-```bash
-composer install
-
-npm install
-```
-
+    ```bash
+    composer install
+    npm install
+    ```
 
 3. Configure env:
    1. Rename `.env.example` to `.env` and configure the variables as necessary
 
-
 4. Generate Laravel application key:
-```bash
-php artisan key:generate
-```
-
+    ```bash
+    php artisan key:generate
+    ```
 
 5. Serve the application:
-```bash
-php artisan serve
-```
-
+    ```bash
+    php artisan serve
+    ```
 
 6. Compile front-end:
-```bash
-npm run dev
-```
-
+    ```bash
+    npm run dev
+    ```
 
 ## Customization
 Quickly customize pre-defined variables (profile name, links, background, etc.), by visiting `config\display.php`
