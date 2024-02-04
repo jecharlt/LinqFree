@@ -7,7 +7,7 @@
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', {{config('display.display')['google_measurement_id']}});
+            gtag('config', '{{config('display.display')['google_measurement_id']}}');
         </script>
     @endif
     <meta charset="UTF-8">
