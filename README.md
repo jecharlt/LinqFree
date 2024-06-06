@@ -12,8 +12,8 @@
 - Share Links
 
 ## Installation and Running
-1. [Download]([Download Latest Release](https://github.com/jecharlt/LinqFree/archive/refs/tags/1.07.zip)
-   ) the latest release `.zip` file to your local machine or clone the repo:
+1. [Download](https://github.com/jecharlt/LinqFree/archive/refs/tags/1.07.zip) the latest release `.zip` file to 
+   your local machine or clone the repo:
       ```bash
       git clone https://github.com/jecharlt/LinqFree.git
       ```
